@@ -1,5 +1,7 @@
 # can-jsx
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/canjs/can-jsx.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/canjs/can-jsx.svg?branch=master)](https://travis-ci.org/canjs/can-jsx)
 
 
