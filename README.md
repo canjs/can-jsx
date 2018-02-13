@@ -10,7 +10,7 @@
 
 With StealJS, you can import this module directly in a template that is autorendered:
 
-```js
+```javascript
 import plugin from 'can-jsx';
 ```
 
@@ -19,8 +19,8 @@ import plugin from 'can-jsx';
 Use `require` to load `can-jsx` and everything else
 needed to create a template that uses `can-jsx`:
 
-```js
-var plugin = require("can-jsx");
+```javascript
+import plugin from "can-jsx";
 ```
 
 ### Standalone use
