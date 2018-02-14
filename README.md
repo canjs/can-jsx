@@ -11,7 +11,7 @@
 With StealJS, you can import this module directly in a template that is autorendered:
 
 ```js
-import plugin from 'can-jsx';
+import plugin from "can-jsx";
 ```
 
 ### CommonJS use
