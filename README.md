@@ -91,8 +91,6 @@ Component.extend({
         },
 
         view: render(() => {
-                const toClassName = text => text.toLowerCase().replace(/ /g, "-");
-
                 return
                         <div class="weather-widget">
                                 <div class="location-entry">
