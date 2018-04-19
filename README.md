@@ -10,7 +10,7 @@ CanJS + JSX is designed to combine popular features of different frameworks:
 * Object-oriented ViewModels
 * Views that update automatically when the ViewModel changes
 
-Here is an example of what this would look like:
+Here is an example of what this could look like:
 
 ```js
 import Component from "can-component";
@@ -103,22 +103,22 @@ view: render(() => {
         </p>
       }
 
-      { data.showPlacePicker &&
+      { this.showPlacePicker &&
         <div class="location-options">
           <label>Pick your place:</label>
           <ul>
             { places.map(place =>
-              <li on:click="data.pickPlace(place)">{place.name}</li>
+              <li on:click="this.pickPlace(place)">{place.name}</li>
             )}
           </ul>
         </div>
       }
 
-      { data.place &&
+      { this.place &&
         <div class="forecast">
-          <h1>10 day {data.place.name} Weather Forecast</h1>
+          <h1>10 day {this.place.name} Weather Forecast</h1>
           <ul>
-            {data.place.forecasts.map(forecast =>
+            {this.place.forecasts.map(forecast =>
               <li>
                 <span class='date'>{forecast.date}</span>
                 <span class={`description ${toClassName(forecast.text)}`}>{forecast.text}</span>
