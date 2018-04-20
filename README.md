@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/canjs/can-jsx.svg?branch=master)](https://travis-ci.org/canjs/can-jsx)
 
+> This was presented on a [recent live stream (18:19)](https://youtu.be/coSEECcyi00?t=18m19s) with some [follow-up discussion (40:17)](https://youtu.be/coSEECcyi00?t=40m17s).
+
 CanJS + JSX is designed to combine popular features of different frameworks:
 
 * Custom Elements
